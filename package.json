@@ -1,0 +1,25 @@
+{
+  "name": "tallerrapidito",
+  "version": "1.0.0",
+  "description": "preba con arquitectura con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marvin Hernandez",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "serve-static": "^1.13.2"
+  }
+}

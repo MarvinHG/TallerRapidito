@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="col-md-5">
+    <form>
+      <label for="modelo">Modelo</label>
+      <input type="text" class="form-control" name="" id="modelo">
+
+      <label for="marca">Marca</label>
+      <input type="text" class="form-control" name="" id="marca">
+
+      <label for="anno">Año fabricacion</label>
+      <input type="number" class="form-control" name="" id="annofabricacion">
+
+      <label for="placa">Placa</label>
+      <input type="text" class="form-control" name="" id="placa">
+
+      <label for="gasolina">Cilindraje</label>
+      <select name="" class="form-control" id="gasolina">
+        <option value="1">180</option>
+        <option value="2">200</option>
+        <option value="3">280</option>
+      </select>
+
+      <button type="button" class="btn btn-success mt-3" id="registrar">Registrar</button>
+    </form>
+  </div>
+
+  <div class="col-md-7 mt-3">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Fabricacion</th>
+          <th>Placa</th>
+          <th>Cilindraje</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+
+  <script src="./vendor/jquery.min.js"></script>
+  <script src="./js/classes/vehiculo.js"></script>
+  <script src="./js/classes/moto.js"></script>
+  <script src="./js/classes/taxi.js"></script>
+  <script src="./js/service.js"></script>
+  <script src="./js/controller.js"></script>
+</body>
+
+</html>
